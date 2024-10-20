@@ -1,27 +1,31 @@
 {
   "expo": {
-    "name": "dash",
-    "slug": "dash",
+    "name": "Carteira digital",
+    "slug": "digiPass",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/imgs/smartphone.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/imgs/smartphone.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./src/imgs/smartphone.png",
+        "backgroundColor": "#000000"
+      },
+      "versionCode": 1,
+      "package": "com.morgadoandrade.digiPass"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "41df11bf-3974-4d5d-bffa-f43ec879db4a"
+      }
     }
   }
 }
